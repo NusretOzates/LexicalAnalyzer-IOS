@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FsV-hC-FYc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,6 +10,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ZCR-GO-arI">
+            <objects>
+                <navigationController id="FsV-hC-FYc" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1PN-fV-aTm">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="rF3-Xo-Igz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j4F-G5-62v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1479" y="128"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -26,6 +42,9 @@
                                         <color key="backgroundColor" red="0.12724374009259573" green="0.87617389896373055" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Analyze"/>
+                                        <connections>
+                                            <action selector="AnalyzeButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iCD-Pi-fnT"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pac-iQ-X7c">
                                         <rect key="frame" x="111.5" y="0.0" width="112" height="30"/>
@@ -47,35 +66,98 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Enter your text here." textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="H1e-zv-Iqb">
-                                <rect key="frame" x="20" y="220" width="335" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="H1e-zv-Iqb">
+                                <rect key="frame" x="20" y="264" width="335" height="84"/>
                                 <color key="backgroundColor" red="1" green="0.99137674657089581" blue="0.965506986283583" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">Istanbul was founded in the 7th century BC on a natural spot, from which trade over the Bosphorus could be controlled.
+
+For over 16 centuries it has been a large capital, first of the Byzantine Empire and afterwards of the Ottoman sultans.
+
+If the Earth was a single state, Istanbul would be its capital.
+Napoleon Bonaparte
+
+The topography of Istanbul has been established at the end of the last Ice-Age, when melt-water created the Bosphorus. The cultures in the area dating back to the Stone Ages were replaced by villages from the Copper Ages en walled-in cities from the Bronze Age, in particular Troy.
+
+The Bosphorus was an important trade route for ships with wine and olive-oil from areas in the north of the Mediterranean Sea; and grains, wool, wood, honey and salted meat and fish from areas in the south of the Black Sea.
+
+Through the centuries, the area around the Bosphorus has been occupied by several nations, among which the Greeks. They founded the city Chalcedon in 676 BC, now known as Kadıköy.
+
+</mutableString>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="07S-oB-jfj">
+                                <rect key="frame" x="20" y="404" width="335" height="160"/>
+                            </pickerView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="07S-oB-jfj" secondAttribute="trailing" constant="20" id="11G-S0-Edd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="H1e-zv-Iqb" secondAttribute="trailing" constant="20" id="7gl-8V-TlF"/>
                             <constraint firstItem="H1e-zv-Iqb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="Anv-aC-uXN"/>
                             <constraint firstItem="H1e-zv-Iqb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Dl2-xJ-Evw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="07S-oB-jfj" secondAttribute="bottom" constant="103" id="Gwm-NK-qon"/>
+                            <constraint firstItem="07S-oB-jfj" firstAttribute="top" secondItem="hYG-zh-w6Z" secondAttribute="bottom" constant="10" id="YZJ-Ij-Hai"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hYG-zh-w6Z" secondAttribute="trailing" constant="20" id="bvM-Xv-yef"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="H1e-zv-Iqb" secondAttribute="bottom" constant="319" id="h2e-cj-kCO"/>
                             <constraint firstItem="hYG-zh-w6Z" firstAttribute="top" secondItem="H1e-zv-Iqb" secondAttribute="bottom" constant="16" id="mLe-VD-fP6"/>
+                            <constraint firstItem="07S-oB-jfj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="qMP-Zx-fAW"/>
                             <constraint firstItem="hYG-zh-w6Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="sfl-ap-vGz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="pDK-5I-Y7P"/>
                     <connections>
-                        <outlet property="analyzeButton" destination="ISY-8j-hP9" id="5Us-bY-r5J"/>
+                        <outlet property="analyzeButton" destination="ISY-8j-hP9" id="SSn-Pb-JWY"/>
+                        <outlet property="choices" destination="07S-oB-jfj" id="XET-mZ-zDf"/>
                         <outlet property="recordVoice" destination="Ex0-La-MLd" id="sHz-d8-4AP"/>
-                        <outlet property="textForAnalyze" destination="H1e-zv-Iqb" id="2Ex-xd-JZG"/>
+                        <outlet property="textForAnalyze" destination="H1e-zv-Iqb" id="IDc-aT-PVS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="133.74384236453201"/>
+            <point key="canvasLocation" x="-652" y="126.38680659670166"/>
+        </scene>
+        <!--Analyze View Controller-->
+        <scene sceneID="rPm-zs-61p">
+            <objects>
+                <viewController storyboardIdentifier="AnalyzeView" id="GTU-qG-fsN" customClass="AnalyzeViewController" customModule="LexicalAnalyzer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VGz-no-my3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NHw-JW-SZ2" customClass="BarChartView" customModule="Charts">
+                                <rect key="frame" x="20" y="30" width="335" height="337"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ybk-mO-CkL">
+                                <rect key="frame" x="20" y="377" width="335" height="270"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Zzl-yO-Sbe" firstAttribute="bottom" secondItem="NHw-JW-SZ2" secondAttribute="bottom" constant="300" id="1hc-Qa-0UE"/>
+                            <constraint firstItem="NHw-JW-SZ2" firstAttribute="leading" secondItem="Zzl-yO-Sbe" secondAttribute="leading" constant="20" id="9Vx-Co-bHB"/>
+                            <constraint firstItem="Ybk-mO-CkL" firstAttribute="top" secondItem="NHw-JW-SZ2" secondAttribute="bottom" constant="10" id="Blf-xi-83Z"/>
+                            <constraint firstItem="Zzl-yO-Sbe" firstAttribute="trailing" secondItem="Ybk-mO-CkL" secondAttribute="trailing" constant="20" id="Dmq-Zd-uiu"/>
+                            <constraint firstItem="Ybk-mO-CkL" firstAttribute="leading" secondItem="Zzl-yO-Sbe" secondAttribute="leading" constant="20" id="MKJ-Nq-0YX"/>
+                            <constraint firstItem="NHw-JW-SZ2" firstAttribute="top" secondItem="Zzl-yO-Sbe" secondAttribute="top" constant="10" id="OUh-Nk-xQs"/>
+                            <constraint firstItem="Zzl-yO-Sbe" firstAttribute="trailing" secondItem="NHw-JW-SZ2" secondAttribute="trailing" constant="20" id="Us1-ac-NPa"/>
+                            <constraint firstItem="Zzl-yO-Sbe" firstAttribute="bottom" secondItem="Ybk-mO-CkL" secondAttribute="bottom" constant="20" id="dd2-OD-ylq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Zzl-yO-Sbe"/>
+                    </view>
+                    <connections>
+                        <outlet property="Chart" destination="NHw-JW-SZ2" id="m4u-Px-Tmh"/>
+                        <outlet property="words" destination="Ybk-mO-CkL" id="Tvs-C5-HG9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IO8-xe-MPv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5.5999999999999996" y="126.38680659670166"/>
         </scene>
     </scenes>
 </document>

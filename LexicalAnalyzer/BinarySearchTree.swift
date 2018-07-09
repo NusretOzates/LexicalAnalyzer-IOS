@@ -15,13 +15,14 @@ class BinarySearchTree
     {
         self.root = nil
     }
-    
-    func find(p_word :String) -> Bool {
+    // inout kullanma sebebimiz parametreyi mutable yapmak , diğer türlü "let" oluyor
+    func find(p_word :String, dictionaryToAddIfFind : inout Dictionary<String, [String]>) -> Bool {
         var current :Node? = root
         while current != nil
         {
             if current?.node_word.getWord().caseInsensitiveCompare(p_word) == ComparisonResult.orderedSame
             {
+                dictionaryToAddIfFind[(current?.node_word.getRoot())!, default:[]].append((current?.node_word.getWord())!)
                 return true
             }else if current?.node_word.getWord().caseInsensitiveCompare(p_word) == ComparisonResult.orderedDescending
             {
