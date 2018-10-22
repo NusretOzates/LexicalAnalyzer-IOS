@@ -10,33 +10,32 @@
 		19707B3420A755F00019CDB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19707B3320A755F00019CDB2 /* AppDelegate.swift */; };
 		19707B3620A755F00019CDB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19707B3520A755F00019CDB2 /* ViewController.swift */; };
 		19707B3920A755F00019CDB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19707B3720A755F00019CDB2 /* Main.storyboard */; };
-		19707B3B20A755F20019CDB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19707B3A20A755F20019CDB2 /* Assets.xcassets */; };
 		19707B3E20A755F20019CDB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19707B3C20A755F20019CDB2 /* LaunchScreen.storyboard */; };
 		19707B4920A755F20019CDB2 /* LexicalAnalyzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19707B4820A755F20019CDB2 /* LexicalAnalyzerTests.swift */; };
-		19825FFF20B6CE4C004EB077 /* first5001000.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FEB20B6CE4B004EB077 /* first5001000.csv */; };
-		1982600020B6CE4C004EB077 /* awlsublist7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FEC20B6CE4B004EB077 /* awlsublist7.csv */; };
-		1982600120B6CE4C004EB077 /* awlsublist9.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FED20B6CE4B004EB077 /* awlsublist9.csv */; };
-		1982600220B6CE4C004EB077 /* discourseconnnector.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FEE20B6CE4B004EB077 /* discourseconnnector.csv */; };
-		1982600320B6CE4C004EB077 /* first10002500.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FEF20B6CE4B004EB077 /* first10002500.csv */; };
-		1982600420B6CE4C004EB077 /* first1000ngsl.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FF020B6CE4B004EB077 /* first1000ngsl.csv */; };
-		1982600520B6CE4C004EB077 /* ngslsupplamental.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FF120B6CE4B004EB077 /* ngslsupplamental.csv */; };
-		1982600620B6CE4C004EB077 /* first500.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FF220B6CE4B004EB077 /* first500.csv */; };
-		1982600720B6CE4C004EB077 /* awlsublist6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FF320B6CE4B004EB077 /* awlsublist6.csv */; };
-		1982600820B6CE4C004EB077 /* awlsublist1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FF420B6CE4B004EB077 /* awlsublist1.csv */; };
-		1982600920B6CE4C004EB077 /* academiccollocation.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FF520B6CE4C004EB077 /* academiccollocation.csv */; };
-		1982600A20B6CE4C004EB077 /* awlsublist2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FF620B6CE4C004EB077 /* awlsublist2.csv */; };
-		1982600B20B6CE4C004EB077 /* awlsublist5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FF720B6CE4C004EB077 /* awlsublist5.csv */; };
-		1982600C20B6CE4C004EB077 /* academicwords.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FF820B6CE4C004EB077 /* academicwords.csv */; };
-		1982600D20B6CE4C004EB077 /* awlsublist4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FF920B6CE4C004EB077 /* awlsublist4.csv */; };
-		1982600E20B6CE4C004EB077 /* ngslthird1000.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FFA20B6CE4C004EB077 /* ngslthird1000.csv */; };
-		1982600F20B6CE4C004EB077 /* awlsublist10.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FFB20B6CE4C004EB077 /* awlsublist10.csv */; };
-		1982601020B6CE4C004EB077 /* awlsublist3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FFC20B6CE4C004EB077 /* awlsublist3.csv */; };
-		1982601120B6CE4C004EB077 /* ngssecond1000.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FFD20B6CE4C004EB077 /* ngssecond1000.csv */; };
-		1982601220B6CE4C004EB077 /* awlsublist8.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19825FFE20B6CE4C004EB077 /* awlsublist8.csv */; };
 		1982601620B6F50A004EB077 /* AnalyzeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1982601520B6F50A004EB077 /* AnalyzeViewController.swift */; };
-		19A7C39420B4200100AAB55B /* frequentphrasalverbs.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19A7C39320B4200100AAB55B /* frequentphrasalverbs.csv */; };
 		19C376BB20A9F466004E2C63 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C376BA20A9F466004E2C63 /* Node.swift */; };
 		19C376BD20A9F502004E2C63 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C376BC20A9F502004E2C63 /* Word.swift */; };
+		19D7F3DB217E1CB100A49BD4 /* discourseconnnector.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3C6217E1CAF00A49BD4 /* discourseconnnector.csv */; };
+		19D7F3DC217E1CB100A49BD4 /* ngssecond1000.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3C7217E1CB000A49BD4 /* ngssecond1000.csv */; };
+		19D7F3DD217E1CB100A49BD4 /* awlsublist1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3C8217E1CB000A49BD4 /* awlsublist1.csv */; };
+		19D7F3DE217E1CB100A49BD4 /* awlsublist9.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3C9217E1CB000A49BD4 /* awlsublist9.csv */; };
+		19D7F3DF217E1CB100A49BD4 /* academiccollocation.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3CA217E1CB000A49BD4 /* academiccollocation.csv */; };
+		19D7F3E0217E1CB100A49BD4 /* first500.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3CB217E1CB000A49BD4 /* first500.csv */; };
+		19D7F3E1217E1CB100A49BD4 /* awlsublist3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3CC217E1CB000A49BD4 /* awlsublist3.csv */; };
+		19D7F3E2217E1CB100A49BD4 /* awlsublist6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3CD217E1CB000A49BD4 /* awlsublist6.csv */; };
+		19D7F3E3217E1CB100A49BD4 /* ngslsupplamental.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3CE217E1CB000A49BD4 /* ngslsupplamental.csv */; };
+		19D7F3E4217E1CB100A49BD4 /* first10002500.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3CF217E1CB000A49BD4 /* first10002500.csv */; };
+		19D7F3E5217E1CB100A49BD4 /* awlsublist10.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3D0217E1CB000A49BD4 /* awlsublist10.csv */; };
+		19D7F3E6217E1CB100A49BD4 /* awlsublist2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3D1217E1CB000A49BD4 /* awlsublist2.csv */; };
+		19D7F3E7217E1CB100A49BD4 /* academicwords.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3D2217E1CB000A49BD4 /* academicwords.csv */; };
+		19D7F3E8217E1CB100A49BD4 /* awlsublist5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3D3217E1CB100A49BD4 /* awlsublist5.csv */; };
+		19D7F3E9217E1CB100A49BD4 /* awlsublist7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3D4217E1CB100A49BD4 /* awlsublist7.csv */; };
+		19D7F3EA217E1CB100A49BD4 /* first1000ngsl.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3D5217E1CB100A49BD4 /* first1000ngsl.csv */; };
+		19D7F3EB217E1CB100A49BD4 /* awlsublist8.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3D6217E1CB100A49BD4 /* awlsublist8.csv */; };
+		19D7F3EC217E1CB100A49BD4 /* first5001000.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3D7217E1CB100A49BD4 /* first5001000.csv */; };
+		19D7F3ED217E1CB100A49BD4 /* ngslthird1000.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3D8217E1CB100A49BD4 /* ngslthird1000.csv */; };
+		19D7F3EE217E1CB100A49BD4 /* frequentphrasalverbs.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3D9217E1CB100A49BD4 /* frequentphrasalverbs.csv */; };
+		19D7F3EF217E1CB100A49BD4 /* awlsublist4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19D7F3DA217E1CB100A49BD4 /* awlsublist4.csv */; };
 		19FD705E20AB4D58007C6116 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD705D20AB4D58007C6116 /* BinarySearchTree.swift */; };
 		59D58F8039186B0C265117D1 /* Pods_LexicalAnalyzer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C9A8B50B58C578C98A511D /* Pods_LexicalAnalyzer.framework */; };
 		A018AB13E3B52D4BF3B25909 /* Pods_LexicalAnalyzerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9205745CF8F8CD6EF73FF091 /* Pods_LexicalAnalyzerTests.framework */; };
@@ -59,36 +58,35 @@
 		19707B3320A755F00019CDB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19707B3520A755F00019CDB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		19707B3820A755F00019CDB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		19707B3A20A755F20019CDB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19707B3D20A755F20019CDB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19707B3F20A755F20019CDB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19707B4420A755F20019CDB2 /* LexicalAnalyzerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LexicalAnalyzerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19707B4820A755F20019CDB2 /* LexicalAnalyzerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexicalAnalyzerTests.swift; sourceTree = "<group>"; };
 		19707B4A20A755F20019CDB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19825FEB20B6CE4B004EB077 /* first5001000.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = first5001000.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/first5001000.csv; sourceTree = "<group>"; };
-		19825FEC20B6CE4B004EB077 /* awlsublist7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = awlsublist7.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/awlsublist7.csv; sourceTree = "<group>"; };
-		19825FED20B6CE4B004EB077 /* awlsublist9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = awlsublist9.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/awlsublist9.csv; sourceTree = "<group>"; };
-		19825FEE20B6CE4B004EB077 /* discourseconnnector.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = discourseconnnector.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/discourseconnnector.csv; sourceTree = "<group>"; };
-		19825FEF20B6CE4B004EB077 /* first10002500.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = first10002500.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/first10002500.csv; sourceTree = "<group>"; };
-		19825FF020B6CE4B004EB077 /* first1000ngsl.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = first1000ngsl.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/first1000ngsl.csv; sourceTree = "<group>"; };
-		19825FF120B6CE4B004EB077 /* ngslsupplamental.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ngslsupplamental.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/ngslsupplamental.csv; sourceTree = "<group>"; };
-		19825FF220B6CE4B004EB077 /* first500.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = first500.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/first500.csv; sourceTree = "<group>"; };
-		19825FF320B6CE4B004EB077 /* awlsublist6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = awlsublist6.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/awlsublist6.csv; sourceTree = "<group>"; };
-		19825FF420B6CE4B004EB077 /* awlsublist1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = awlsublist1.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/awlsublist1.csv; sourceTree = "<group>"; };
-		19825FF520B6CE4C004EB077 /* academiccollocation.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = academiccollocation.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/academiccollocation.csv; sourceTree = "<group>"; };
-		19825FF620B6CE4C004EB077 /* awlsublist2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = awlsublist2.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/awlsublist2.csv; sourceTree = "<group>"; };
-		19825FF720B6CE4C004EB077 /* awlsublist5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = awlsublist5.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/awlsublist5.csv; sourceTree = "<group>"; };
-		19825FF820B6CE4C004EB077 /* academicwords.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = academicwords.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/academicwords.csv; sourceTree = "<group>"; };
-		19825FF920B6CE4C004EB077 /* awlsublist4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = awlsublist4.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/awlsublist4.csv; sourceTree = "<group>"; };
-		19825FFA20B6CE4C004EB077 /* ngslthird1000.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ngslthird1000.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/ngslthird1000.csv; sourceTree = "<group>"; };
-		19825FFB20B6CE4C004EB077 /* awlsublist10.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = awlsublist10.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/awlsublist10.csv; sourceTree = "<group>"; };
-		19825FFC20B6CE4C004EB077 /* awlsublist3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = awlsublist3.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/awlsublist3.csv; sourceTree = "<group>"; };
-		19825FFD20B6CE4C004EB077 /* ngssecond1000.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ngssecond1000.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/ngssecond1000.csv; sourceTree = "<group>"; };
-		19825FFE20B6CE4C004EB077 /* awlsublist8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = awlsublist8.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/awlsublist8.csv; sourceTree = "<group>"; };
 		1982601520B6F50A004EB077 /* AnalyzeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeViewController.swift; sourceTree = "<group>"; };
-		19A7C39320B4200100AAB55B /* frequentphrasalverbs.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = frequentphrasalverbs.csv; path = ../../../Documents/IFoundThisOnInternetv1/app/src/main/res/raw/frequentphrasalverbs.csv; sourceTree = "<group>"; };
 		19C376BA20A9F466004E2C63 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		19C376BC20A9F502004E2C63 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		19D7F3C6217E1CAF00A49BD4 /* discourseconnnector.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = discourseconnnector.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3C7217E1CB000A49BD4 /* ngssecond1000.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ngssecond1000.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3C8217E1CB000A49BD4 /* awlsublist1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = awlsublist1.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3C9217E1CB000A49BD4 /* awlsublist9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = awlsublist9.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3CA217E1CB000A49BD4 /* academiccollocation.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = academiccollocation.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3CB217E1CB000A49BD4 /* first500.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = first500.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3CC217E1CB000A49BD4 /* awlsublist3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = awlsublist3.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3CD217E1CB000A49BD4 /* awlsublist6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = awlsublist6.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3CE217E1CB000A49BD4 /* ngslsupplamental.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ngslsupplamental.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3CF217E1CB000A49BD4 /* first10002500.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = first10002500.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3D0217E1CB000A49BD4 /* awlsublist10.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = awlsublist10.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3D1217E1CB000A49BD4 /* awlsublist2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = awlsublist2.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3D2217E1CB000A49BD4 /* academicwords.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = academicwords.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3D3217E1CB100A49BD4 /* awlsublist5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = awlsublist5.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3D4217E1CB100A49BD4 /* awlsublist7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = awlsublist7.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3D5217E1CB100A49BD4 /* first1000ngsl.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = first1000ngsl.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3D6217E1CB100A49BD4 /* awlsublist8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = awlsublist8.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3D7217E1CB100A49BD4 /* first5001000.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = first5001000.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3D8217E1CB100A49BD4 /* ngslthird1000.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ngslthird1000.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3D9217E1CB100A49BD4 /* frequentphrasalverbs.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = frequentphrasalverbs.csv; sourceTree = SOURCE_ROOT; };
+		19D7F3DA217E1CB100A49BD4 /* awlsublist4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = awlsublist4.csv; sourceTree = SOURCE_ROOT; };
 		19FD705D20AB4D58007C6116 /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
 		3DF5F4D0C6CD7302083606B1 /* Pods-LexicalAnalyzerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LexicalAnalyzerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LexicalAnalyzerTests/Pods-LexicalAnalyzerTests.release.xcconfig"; sourceTree = "<group>"; };
 		9205745CF8F8CD6EF73FF091 /* Pods_LexicalAnalyzerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LexicalAnalyzerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +137,27 @@
 		19707B3220A755F00019CDB2 /* LexicalAnalyzer */ = {
 			isa = PBXGroup;
 			children = (
+				19D7F3CA217E1CB000A49BD4 /* academiccollocation.csv */,
+				19D7F3D2217E1CB000A49BD4 /* academicwords.csv */,
+				19D7F3C8217E1CB000A49BD4 /* awlsublist1.csv */,
+				19D7F3D1217E1CB000A49BD4 /* awlsublist2.csv */,
+				19D7F3CC217E1CB000A49BD4 /* awlsublist3.csv */,
+				19D7F3DA217E1CB100A49BD4 /* awlsublist4.csv */,
+				19D7F3D3217E1CB100A49BD4 /* awlsublist5.csv */,
+				19D7F3CD217E1CB000A49BD4 /* awlsublist6.csv */,
+				19D7F3D4217E1CB100A49BD4 /* awlsublist7.csv */,
+				19D7F3D6217E1CB100A49BD4 /* awlsublist8.csv */,
+				19D7F3C9217E1CB000A49BD4 /* awlsublist9.csv */,
+				19D7F3D0217E1CB000A49BD4 /* awlsublist10.csv */,
+				19D7F3C6217E1CAF00A49BD4 /* discourseconnnector.csv */,
+				19D7F3CB217E1CB000A49BD4 /* first500.csv */,
+				19D7F3D5217E1CB100A49BD4 /* first1000ngsl.csv */,
+				19D7F3D7217E1CB100A49BD4 /* first5001000.csv */,
+				19D7F3CF217E1CB000A49BD4 /* first10002500.csv */,
+				19D7F3D9217E1CB100A49BD4 /* frequentphrasalverbs.csv */,
+				19D7F3CE217E1CB000A49BD4 /* ngslsupplamental.csv */,
+				19D7F3D8217E1CB100A49BD4 /* ngslthird1000.csv */,
+				19D7F3C7217E1CB000A49BD4 /* ngssecond1000.csv */,
 				19707B3320A755F00019CDB2 /* AppDelegate.swift */,
 				19707B3520A755F00019CDB2 /* ViewController.swift */,
 				1982601520B6F50A004EB077 /* AnalyzeViewController.swift */,
@@ -146,30 +165,8 @@
 				19FD705D20AB4D58007C6116 /* BinarySearchTree.swift */,
 				19C376BA20A9F466004E2C63 /* Node.swift */,
 				19707B3720A755F00019CDB2 /* Main.storyboard */,
-				19707B3A20A755F20019CDB2 /* Assets.xcassets */,
 				19707B3C20A755F20019CDB2 /* LaunchScreen.storyboard */,
 				19707B3F20A755F20019CDB2 /* Info.plist */,
-				19A7C39320B4200100AAB55B /* frequentphrasalverbs.csv */,
-				19825FF520B6CE4C004EB077 /* academiccollocation.csv */,
-				19825FF820B6CE4C004EB077 /* academicwords.csv */,
-				19825FF420B6CE4B004EB077 /* awlsublist1.csv */,
-				19825FF620B6CE4C004EB077 /* awlsublist2.csv */,
-				19825FFC20B6CE4C004EB077 /* awlsublist3.csv */,
-				19825FF920B6CE4C004EB077 /* awlsublist4.csv */,
-				19825FF720B6CE4C004EB077 /* awlsublist5.csv */,
-				19825FF320B6CE4B004EB077 /* awlsublist6.csv */,
-				19825FEC20B6CE4B004EB077 /* awlsublist7.csv */,
-				19825FFE20B6CE4C004EB077 /* awlsublist8.csv */,
-				19825FED20B6CE4B004EB077 /* awlsublist9.csv */,
-				19825FFB20B6CE4C004EB077 /* awlsublist10.csv */,
-				19825FEE20B6CE4B004EB077 /* discourseconnnector.csv */,
-				19825FF220B6CE4B004EB077 /* first500.csv */,
-				19825FF020B6CE4B004EB077 /* first1000ngsl.csv */,
-				19825FEB20B6CE4B004EB077 /* first5001000.csv */,
-				19825FEF20B6CE4B004EB077 /* first10002500.csv */,
-				19825FF120B6CE4B004EB077 /* ngslsupplamental.csv */,
-				19825FFA20B6CE4C004EB077 /* ngslthird1000.csv */,
-				19825FFD20B6CE4C004EB077 /* ngssecond1000.csv */,
 			);
 			path = LexicalAnalyzer;
 			sourceTree = "<group>";
@@ -287,30 +284,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1982600520B6CE4C004EB077 /* ngslsupplamental.csv in Resources */,
-				1982600920B6CE4C004EB077 /* academiccollocation.csv in Resources */,
-				1982601020B6CE4C004EB077 /* awlsublist3.csv in Resources */,
-				1982600720B6CE4C004EB077 /* awlsublist6.csv in Resources */,
-				1982600820B6CE4C004EB077 /* awlsublist1.csv in Resources */,
+				19D7F3E3217E1CB100A49BD4 /* ngslsupplamental.csv in Resources */,
+				19D7F3DC217E1CB100A49BD4 /* ngssecond1000.csv in Resources */,
+				19D7F3EB217E1CB100A49BD4 /* awlsublist8.csv in Resources */,
+				19D7F3EF217E1CB100A49BD4 /* awlsublist4.csv in Resources */,
+				19D7F3E9217E1CB100A49BD4 /* awlsublist7.csv in Resources */,
+				19D7F3DB217E1CB100A49BD4 /* discourseconnnector.csv in Resources */,
+				19D7F3EA217E1CB100A49BD4 /* first1000ngsl.csv in Resources */,
+				19D7F3E1217E1CB100A49BD4 /* awlsublist3.csv in Resources */,
+				19D7F3E2217E1CB100A49BD4 /* awlsublist6.csv in Resources */,
+				19D7F3DF217E1CB100A49BD4 /* academiccollocation.csv in Resources */,
+				19D7F3ED217E1CB100A49BD4 /* ngslthird1000.csv in Resources */,
+				19D7F3E0217E1CB100A49BD4 /* first500.csv in Resources */,
+				19D7F3DE217E1CB100A49BD4 /* awlsublist9.csv in Resources */,
+				19D7F3E8217E1CB100A49BD4 /* awlsublist5.csv in Resources */,
+				19D7F3EC217E1CB100A49BD4 /* first5001000.csv in Resources */,
+				19D7F3E5217E1CB100A49BD4 /* awlsublist10.csv in Resources */,
 				19707B3E20A755F20019CDB2 /* LaunchScreen.storyboard in Resources */,
-				1982600B20B6CE4C004EB077 /* awlsublist5.csv in Resources */,
-				1982601120B6CE4C004EB077 /* ngssecond1000.csv in Resources */,
-				1982600A20B6CE4C004EB077 /* awlsublist2.csv in Resources */,
-				19A7C39420B4200100AAB55B /* frequentphrasalverbs.csv in Resources */,
-				1982600620B6CE4C004EB077 /* first500.csv in Resources */,
-				1982601220B6CE4C004EB077 /* awlsublist8.csv in Resources */,
-				1982600F20B6CE4C004EB077 /* awlsublist10.csv in Resources */,
-				1982600C20B6CE4C004EB077 /* academicwords.csv in Resources */,
-				1982600020B6CE4C004EB077 /* awlsublist7.csv in Resources */,
-				1982600E20B6CE4C004EB077 /* ngslthird1000.csv in Resources */,
-				1982600220B6CE4C004EB077 /* discourseconnnector.csv in Resources */,
-				19825FFF20B6CE4C004EB077 /* first5001000.csv in Resources */,
-				1982600D20B6CE4C004EB077 /* awlsublist4.csv in Resources */,
-				1982600320B6CE4C004EB077 /* first10002500.csv in Resources */,
-				1982600420B6CE4C004EB077 /* first1000ngsl.csv in Resources */,
-				19707B3B20A755F20019CDB2 /* Assets.xcassets in Resources */,
+				19D7F3DD217E1CB100A49BD4 /* awlsublist1.csv in Resources */,
 				19707B3920A755F00019CDB2 /* Main.storyboard in Resources */,
-				1982600120B6CE4C004EB077 /* awlsublist9.csv in Resources */,
+				19D7F3E7217E1CB100A49BD4 /* academicwords.csv in Resources */,
+				19D7F3E4217E1CB100A49BD4 /* first10002500.csv in Resources */,
+				19D7F3E6217E1CB100A49BD4 /* awlsublist2.csv in Resources */,
+				19D7F3EE217E1CB100A49BD4 /* frequentphrasalverbs.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,7 +548,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R4CD923965;
+				DEVELOPMENT_TEAM = 2GF2H99Y2C;
 				INFOPLIST_FILE = LexicalAnalyzer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -571,7 +567,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R4CD923965;
+				DEVELOPMENT_TEAM = 2GF2H99Y2C;
 				INFOPLIST_FILE = LexicalAnalyzer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
