@@ -186,29 +186,29 @@ class ViewController: UIViewController,UITextViewDelegate,SFSpeechRecognizerDele
 
         case "2":
             self.readNGSLFile(filename: "first1000ngsl", binarySearchTree: self.sublist1)
-            self.readNGSLFile(filename: "ngssecond1000", binarySearchTree: self.sublist2)
-            self.readNGSLFile(filename: "ngslthird1000", binarySearchTree: self.sublist3)
-            self.readNGSLFile(filename: "ngslsupplamental", binarySearchTree: self.sublist4)
+            self.readNGSLFile(filename: "ngssecond1000", binarySearchTree: self.sublist1)
+            self.readNGSLFile(filename: "ngslthird1000", binarySearchTree: self.sublist1)
+            self.readNGSLFile(filename: "ngslsupplamental", binarySearchTree: self.sublist1)
             self.analyzeNGSL()
 
         case "1":
             self.readDocumentFile(filename: "first500", binarySearchTree: self.sublist1)
-            self.readDocumentFile(filename: "first5001000", binarySearchTree: self.sublist2)
-            self.readDocumentFile(filename: "first10002500", binarySearchTree: self.sublist3)
+            self.readDocumentFile(filename: "first5001000", binarySearchTree: self.sublist1)
+            self.readDocumentFile(filename: "first10002500", binarySearchTree: self.sublist1)
             self.analyzeNewGSlList()
 
         case "3" :
 
                     self.readDocumentFile(filename: "awlsublist1", binarySearchTree: self.sublist1)
-                    self.readDocumentFile(filename: "awlsublist2", binarySearchTree: self.sublist2)
-                    self.readDocumentFile(filename: "awlsublist3", binarySearchTree: self.sublist3)
-                    self.readDocumentFile(filename: "awlsublist4", binarySearchTree: self.sublist4)
-                    self.readDocumentFile(filename: "awlsublist5", binarySearchTree: self.sublist5)
-                    self.readDocumentFile(filename: "awlsublist6", binarySearchTree: self.sublist6)
-                    self.readDocumentFile(filename: "awlsublist7", binarySearchTree: self.sublist7)
-                    self.readDocumentFile(filename: "awlsublist8", binarySearchTree: self.sublist8)
-                    self.readDocumentFile(filename: "awlsublist9", binarySearchTree: self.sublist9)
-                    self.readDocumentFile(filename: "awlsublist10",binarySearchTree: self.sublist10)
+                    self.readDocumentFile(filename: "awlsublist2", binarySearchTree: self.sublist1)
+                    self.readDocumentFile(filename: "awlsublist3", binarySearchTree: self.sublist1)
+                    self.readDocumentFile(filename: "awlsublist4", binarySearchTree: self.sublist1)
+                    self.readDocumentFile(filename: "awlsublist5", binarySearchTree: self.sublist1)
+                    self.readDocumentFile(filename: "awlsublist6", binarySearchTree: self.sublist1)
+                    self.readDocumentFile(filename: "awlsublist7", binarySearchTree: self.sublist1)
+                    self.readDocumentFile(filename: "awlsublist8", binarySearchTree: self.sublist1)
+                    self.readDocumentFile(filename: "awlsublist9", binarySearchTree: self.sublist1)
+                    self.readDocumentFile(filename: "awlsublist10",binarySearchTree: self.sublist1)
                     self.analyzeAwtList()
                     // Şuan bulunan kelimeler ve kökleri hazır dict ler bulunan kelime ve kökleri , yedek uniquelist de kalan kelimeler
 
@@ -261,25 +261,17 @@ class ViewController: UIViewController,UITextViewDelegate,SFSpeechRecognizerDele
             if sublist1.find(p_word: String(words), dictionaryToAddIfFind: &dict1) {
                 yedekuniquelist.remove(String(words))
             }
-            if sublist2.find(p_word: String(words), dictionaryToAddIfFind: &dict2) {
-                yedekuniquelist.remove(String(words))
-            }
-            if sublist3.find(p_word: String(words), dictionaryToAddIfFind: &dict3) {
-                yedekuniquelist.remove(String(words))
-            }
         }
         // Şuan bulunan kelimeler ve kökleri hazır dict ler bulunan kelime ve kökleri , yedek uniquelist de kalan kelimeler
         //AnalyzeViewControlleri çektik
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         let myANL = storyboard.instantiateViewController(withIdentifier: "AnalyzeView") as! AnalyzeViewController
         myANL.dict1 = dict1
-        myANL.dict2 = dict2
-        myANL.dict3 = dict3
         myANL.numberofwords = numberOfWords
         myANL.numberofuniquewords = numberOfUniqueWords
         for word in yedekuniquelist
         {
-            var words = Word(word: word)
+            let words = Word(word: word)
         myANL.leftwords![words.getRoot(), default:[]].append(words.getWord())
         }
         myANL.luckynumber = 5
@@ -341,29 +333,17 @@ class ViewController: UIViewController,UITextViewDelegate,SFSpeechRecognizerDele
             if sublist1.find(p_word: String(words), dictionaryToAddIfFind: &dict1) {
                 yedekuniquelist.remove(String(words))
             }
-            if sublist2.find(p_word: String(words), dictionaryToAddIfFind: &dict2) {
-                yedekuniquelist.remove(String(words))
-            }
-            if sublist3.find(p_word: String(words), dictionaryToAddIfFind: &dict3) {
-                yedekuniquelist.remove(String(words))
-            }
-            if sublist4.find(p_word: String(words), dictionaryToAddIfFind: &dict4) {
-                yedekuniquelist.remove(String(words))
-            }
         }
         // Şuan bulunan kelimeler ve kökleri hazır dict ler bulunan kelime ve kökleri , yedek uniquelist de kalan kelimeler
         //AnalyzeViewControlleri çektik
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         let myANL = storyboard.instantiateViewController(withIdentifier: "AnalyzeView") as! AnalyzeViewController
         myANL.dict1 = dict1
-        myANL.dict2 = dict2
-        myANL.dict3 = dict3
-        myANL.dict4 = dict4
         myANL.numberofwords = numberOfWords
         myANL.numberofuniquewords = numberOfUniqueWords
         for word in yedekuniquelist
         {
-            var words = Word(word: word)
+          let words = Word(word: word)
             myANL.leftwords![words.getRoot(), default:[]].append(words.getWord())
         }
         myANL.luckynumber = 6
@@ -604,6 +584,8 @@ class ViewController: UIViewController,UITextViewDelegate,SFSpeechRecognizerDele
         sublist9 = BinarySearchTree()
         sublist10 = BinarySearchTree()
     }
+    
+    // An thing
     func analyzeAwtList()
     {
         //TextViewdeki tüm kelimeler Array halinde
@@ -638,63 +620,17 @@ class ViewController: UIViewController,UITextViewDelegate,SFSpeechRecognizerDele
             {
                 yedekuniquelist.remove(String(words))
             }
-            if  sublist2.find(p_word: String(words),dictionaryToAddIfFind: &dict2)
-            {
-                yedekuniquelist.remove(String(words))
-            }
-            if  sublist3.find(p_word: String(words),dictionaryToAddIfFind: &dict3)
-            {
-                yedekuniquelist.remove(String(words))
-            }
-            if  sublist4.find(p_word: String(words),dictionaryToAddIfFind: &dict4)
-            {
-                yedekuniquelist.remove(String(words))
-            }
-            if  sublist5.find(p_word: String(words),dictionaryToAddIfFind: &dict5)
-            {
-                yedekuniquelist.remove(String(words))
-            }
-            if  sublist6.find(p_word: String(words),dictionaryToAddIfFind: &dict6)
-            {
-                yedekuniquelist.remove(String(words))
-            }
-            if  sublist7.find(p_word: String(words),dictionaryToAddIfFind: &dict7)
-            {
-                yedekuniquelist.remove(String(words))
-            }
-            
-            if  sublist8.find(p_word: String(words),dictionaryToAddIfFind: &dict8)
-            {
-                yedekuniquelist.remove(String(words))
-            }
-            if  sublist9.find(p_word: String(words),dictionaryToAddIfFind: &dict9)
-            {
-                yedekuniquelist.remove(String(words))
-            }
-            if  sublist10.find(p_word: String(words),dictionaryToAddIfFind: &dict10)
-            {
-                yedekuniquelist.remove(String(words))
-            }
         }
         // Şuan bulunan kelimeler ve kökleri hazır dict ler bulunan kelime ve kökleri , yedek uniquelist de kalan kelimeler
        //AnalyzeViewControlleri çektik
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         let myANL = storyboard.instantiateViewController(withIdentifier: "AnalyzeView") as! AnalyzeViewController
         myANL.dict1 = dict1
-        myANL.dict2 = dict2
-        myANL.dict3 = dict3
-        myANL.dict4 = dict4
-        myANL.dict5 = dict5
-        myANL.dict6 = dict6
-        myANL.dict7 = dict7
-        myANL.dict8 = dict8
-        myANL.dict9 = dict9
-        myANL.dict10 = dict10
         myANL.numberofwords = numberOfWords
         myANL.numberofuniquewords = numberOfUniqueWords
         for word in yedekuniquelist
         {
-            var words = Word(word: word)
+            let words = Word(word: word)
             myANL.leftwords![words.getRoot(), default:[]].append(words.getWord())
         }
         myANL.luckynumber = 0

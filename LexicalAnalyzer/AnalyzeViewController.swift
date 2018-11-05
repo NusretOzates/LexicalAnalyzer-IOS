@@ -14,15 +14,6 @@ class AnalyzeViewController : UIViewController,ChartViewDelegate
 {
     
     var dict1  : [String:[String]]? = [:]
-    var dict2  : [String:[String]]? = [:]
-    var dict3  : [String:[String]]? = [:]
-    var dict4  : [String:[String]]? = [:]
-    var dict5  : [String:[String]]? = [:]
-    var dict6  : [String:[String]]? = [:]
-    var dict7  : [String:[String]]? = [:]
-    var dict8  : [String:[String]]? = [:]
-    var dict9  : [String:[String]]? = [:]
-    var dict10 :[String:[String]]? = [:]
     var luckynumber : Int?
     var secilenler : [[String:[String]]] = []
     var values : [BarChartDataEntry] = []
@@ -41,15 +32,7 @@ class AnalyzeViewController : UIViewController,ChartViewDelegate
         super.viewDidLoad()
     
         print(dict1?.values.count)
-        print(dict2?.values.count)
-        print(dict3?.values.count)
-        print(dict4?.values.count)
-        print(dict5?.count)
-        print(dict6?.values.count)
-        print(dict7?.values.count)
-        print(dict8?.values.count)
-        print(dict9?.values.count)
-        print(dict10?.values.count)
+        
         print(numberofuniquewords)
         print(numberofwords)
 
@@ -77,28 +60,19 @@ class AnalyzeViewController : UIViewController,ChartViewDelegate
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         dict1  = [:]
-        dict2  = [:]
-        dict3  = [:]
-        dict4  = [:]
-        dict5  = [:]
-        dict6  = [:]
-        dict7  = [:]
-        dict8  = [:]
-        dict9  = [:]
-        dict10 = [:]
         leftwords = [:]
     }
 
     func NGSL()
     {
-        secilenler = [dict1,dict2,dict3,dict4,leftwords] as! [[String : [String]]]
+        secilenler = [dict1,leftwords] as! [[String : [String]]]
         let i = secilenler.count
 
         for index in 0...i-1 {
             var countofvalues = 0
-            for (key,value) in secilenler[index]
+            for (_,value) in secilenler[index]
             {
-                for val in value
+                for _ in value
                 {
                     countofvalues = countofvalues + 1
                 }
@@ -110,7 +84,7 @@ class AnalyzeViewController : UIViewController,ChartViewDelegate
         piedataset.formSize = 7
         piedataset.valueFont = .systemFont(ofSize: 15)
 
-        let labels : [String] = ["Sublist1","Sublist2","Sublist3","Sublist4","Offlist"]
+        let labels : [String] = ["General Service List","Offlist"]
 
         let dataset = BarChartData()
         dataset.addDataSet(piedataset)
@@ -132,19 +106,19 @@ class AnalyzeViewController : UIViewController,ChartViewDelegate
     }
     func NewGSL() {
         
-        secilenler = [dict1,dict2,dict3,leftwords] as! [[String : [String]]]
+        secilenler = [dict1,dict1,dict1,leftwords] as! [[String : [String]]]
 
         if (dict1!["undefined"]?.count) != nil
         {
             values.append(BarChartDataEntry(x: 0, y: Double((dict1!["undefined"]?.count)!)))
         }
-        if (dict2!["undefined"]?.count) != nil
+        if (dict1!["undefined"]?.count) != nil
         {
-            values.append(BarChartDataEntry(x: 1, y: Double((dict2!["undefined"]?.count)!)))
+            values.append(BarChartDataEntry(x: 1, y: Double((dict1!["undefined"]?.count)!)))
         }
-        if (dict3!["undefined"]?.count) != nil
+        if (dict1!["undefined"]?.count) != nil
         {
-            values.append(BarChartDataEntry(x: 2, y: Double((dict3!["undefined"]?.count)!)))
+            values.append(BarChartDataEntry(x: 2, y: Double((dict1!["undefined"]?.count)!)))
         }
 
         if (leftwords!["undefined"]?.count)! != nil
@@ -219,7 +193,7 @@ class AnalyzeViewController : UIViewController,ChartViewDelegate
     }
     func AWL() {
 
-        secilenler = [dict1,dict2,dict3,dict4,dict5,dict6,dict7,dict8,dict9,dict10,leftwords] as! [[String : [String]]]
+        secilenler = [dict1,dict1,dict1,dict1,dict1,dict6,dict7,dict8,dict9,dict10,leftwords] as! [[String : [String]]]
         let i = secilenler.count
 
 
@@ -303,9 +277,9 @@ class AnalyzeViewController : UIViewController,ChartViewDelegate
         if (dict1?.count)! != nil || (dict1?.count)! > 0
         {
             var countofvalues = 0
-            for (key,value) in secilenler[0]
+            for (_,value) in secilenler[0]
             {
-                for val in value
+                for _ in value
                 {
                     countofvalues = countofvalues + 1
                 }
@@ -349,9 +323,9 @@ class AnalyzeViewController : UIViewController,ChartViewDelegate
         if (dict1!["undefined"]?.count) != nil || (dict1?.count)! > 0
         {
             var countofvalues = 0
-            for (key,value) in secilenler[0]
+            for (_,value) in secilenler[0]
             {
-                for val in value
+                for _ in value
                 {
                     countofvalues = countofvalues + 1
                 }
@@ -394,7 +368,7 @@ class AnalyzeViewController : UIViewController,ChartViewDelegate
      @objc func chartValueSelected(_ chartView: ChartViewBase, entry: ChartDataEntry, highlight: Highlight)
      {
         words.text = ""
-         var valueset : Set<String> = [] // Daha sonra kullanırım sanırım bunu undefinedlar için aklımda kalsın!
+        var _ : Set<String> = [] // Daha sonra kullanırım sanırım bunu undefinedlar için aklımda kalsın!
       for (key,value) in secilenler[Int(highlight.x)]
       {
             if(key != "undefined")
